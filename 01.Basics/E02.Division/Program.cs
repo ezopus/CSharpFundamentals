@@ -1,0 +1,10 @@
+﻿int n = int.Parse(Console.ReadLine());
+int d = 0;
+if (n % 2 == 0) d = 2;
+if (n % 3 == 0) d = 3;
+if (n % 6 == 0) d = 6;
+if (n % 2 == 0 && n % 3 == 0 && n % 6 == 0) d = 6;
+if (n % 7 == 0) d = 7;
+if (n % 10 == 0 || (n % 2 == 0 && n % 10 == 0)) d = 10;
+if (d != 0) Console.WriteLine($"The number is divisible by {d}");
+else Console.WriteLine("Not divisible");
