@@ -1,15 +1,11 @@
-﻿ulong startingYield = ulong.Parse(Console.ReadLine());
+﻿long startingYield = long.Parse(Console.ReadLine());
 int totalDays = 0;
-ulong totalExtractedAmount = 0;
+long totalExtractedAmount = 0;
 while (startingYield >= 100)
 {
-    totalExtractedAmount += startingYield;
+    totalExtractedAmount += startingYield - 26;
     totalDays++;
     startingYield -= 10;
-    if (totalExtractedAmount >= 26)
-    {
-        totalExtractedAmount -= 26;
-    }
 }
 if (totalExtractedAmount >= 26)
 {

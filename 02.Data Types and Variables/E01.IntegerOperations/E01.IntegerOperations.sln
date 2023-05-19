@@ -25,6 +25,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E10.Pokemon", "..\E10.Pokem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E11.Snowballs", "..\E11.Snowballs\E11.Snowballs.csproj", "{487CD4E2-9A51-4E78-B77D-1ECB32039241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L01.ConvertMetersToKilometers", "..\L01.ConvertMetersToKilometers\L01.ConvertMetersToKilometers.csproj", "{2E3CDD9B-1144-41C4-ACB1-5072026982EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02.PoundsToDollars", "..\L02.PoundsToDollars\L02.PoundsToDollars.csproj", "{685361B7-5461-43A5-9400-F0E854F20163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L03.ExactSumOfRealNumbers", "..\L03.ExactSumOfRealNumbers\L03.ExactSumOfRealNumbers.csproj", "{4A160890-134F-4639-BC29-0C5529791541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L04.CenturiesToMinutes", "..\L04.CenturiesToMinutes\L04.CenturiesToMinutes.csproj", "{49603322-6F80-4AE8-99CF-A75C51E7026B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +83,22 @@ Global
 		{487CD4E2-9A51-4E78-B77D-1ECB32039241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{487CD4E2-9A51-4E78-B77D-1ECB32039241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{487CD4E2-9A51-4E78-B77D-1ECB32039241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3CDD9B-1144-41C4-ACB1-5072026982EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3CDD9B-1144-41C4-ACB1-5072026982EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3CDD9B-1144-41C4-ACB1-5072026982EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3CDD9B-1144-41C4-ACB1-5072026982EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685361B7-5461-43A5-9400-F0E854F20163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685361B7-5461-43A5-9400-F0E854F20163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685361B7-5461-43A5-9400-F0E854F20163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685361B7-5461-43A5-9400-F0E854F20163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A160890-134F-4639-BC29-0C5529791541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A160890-134F-4639-BC29-0C5529791541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A160890-134F-4639-BC29-0C5529791541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A160890-134F-4639-BC29-0C5529791541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49603322-6F80-4AE8-99CF-A75C51E7026B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49603322-6F80-4AE8-99CF-A75C51E7026B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49603322-6F80-4AE8-99CF-A75C51E7026B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49603322-6F80-4AE8-99CF-A75C51E7026B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
