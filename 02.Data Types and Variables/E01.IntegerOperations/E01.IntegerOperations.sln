@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E08.BeerKegs", "..\E08.Beer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E09.SpiceMustFlow", "..\E09.SpiceMustFlow\E09.SpiceMustFlow.csproj", "{17598E08-249F-448D-ADEF-B54E92BCDB68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E10.Pokemon", "..\E10.Pokemon\E10.Pokemon.csproj", "{6FE8CF80-946D-4460-B759-DA4C56D617F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E11.Snowballs", "..\E11.Snowballs\E11.Snowballs.csproj", "{487CD4E2-9A51-4E78-B77D-1ECB32039241}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{17598E08-249F-448D-ADEF-B54E92BCDB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17598E08-249F-448D-ADEF-B54E92BCDB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17598E08-249F-448D-ADEF-B54E92BCDB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE8CF80-946D-4460-B759-DA4C56D617F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE8CF80-946D-4460-B759-DA4C56D617F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE8CF80-946D-4460-B759-DA4C56D617F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE8CF80-946D-4460-B759-DA4C56D617F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487CD4E2-9A51-4E78-B77D-1ECB32039241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487CD4E2-9A51-4E78-B77D-1ECB32039241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487CD4E2-9A51-4E78-B77D-1ECB32039241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487CD4E2-9A51-4E78-B77D-1ECB32039241}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
