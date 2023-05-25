@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.PrintNumbersInReverseOr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.RoundingNumbers", "..\P03.RoundingNumbers\P03.RoundingNumbers.csproj", "{1A9D4722-3B76-404C-9DD3-EC8D82FCC9B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ReverseArrayOfStrings", "..\04.ReverseArrayOfStrings\04.ReverseArrayOfStrings.csproj", "{25BBA487-822E-4E35-A820-9B39BF5833D6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.SumEvenNumbers", "..\P05.SumEvenNumbers\P05.SumEvenNumbers.csproj", "{0CBA7D44-CBCE-4146-9B0D-D36EB916BFC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.EvenAndOddSubtraction", "..\P06.EvenAndOddSubtraction\P06.EvenAndOddSubtraction.csproj", "{AB08A333-980D-429F-979B-A34C482A42B4}"
@@ -55,10 +53,6 @@ Global
 		{1A9D4722-3B76-404C-9DD3-EC8D82FCC9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A9D4722-3B76-404C-9DD3-EC8D82FCC9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A9D4722-3B76-404C-9DD3-EC8D82FCC9B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25BBA487-822E-4E35-A820-9B39BF5833D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25BBA487-822E-4E35-A820-9B39BF5833D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25BBA487-822E-4E35-A820-9B39BF5833D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25BBA487-822E-4E35-A820-9B39BF5833D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0CBA7D44-CBCE-4146-9B0D-D36EB916BFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0CBA7D44-CBCE-4146-9B0D-D36EB916BFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CBA7D44-CBCE-4146-9B0D-D36EB916BFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
