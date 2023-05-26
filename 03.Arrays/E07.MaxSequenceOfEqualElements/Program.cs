@@ -26,7 +26,7 @@ for (int i = 0; i < array.Length - 1; i++)
         longestSequenceStart = i;
         longestSequenceValue = array[i];
     }
-        sequenceCounter = 0;
+    sequenceCounter = 0;
 }
 while (longestSequence >= 0)
 {

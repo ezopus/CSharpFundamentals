@@ -3,39 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.DayOfWeek", "P01.DayOfWeek.csproj", "{FB9205AE-C550-42F1-A72D-54709284E234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.DayOfWeek", "P01.DayOfWeek.csproj", "{FB9205AE-C550-42F1-A72D-54709284E234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.PrintNumbersInReverseOrder", "..\P02.PrintNumbersInReverseOrder\P02.PrintNumbersInReverseOrder.csproj", "{0FCF8883-7AF5-42C1-98EF-0D19A162505F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.PrintNumbersInReverseOrder", "..\P02.PrintNumbersInReverseOrder\P02.PrintNumbersInReverseOrder.csproj", "{0FCF8883-7AF5-42C1-98EF-0D19A162505F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.RoundingNumbers", "..\P03.RoundingNumbers\P03.RoundingNumbers.csproj", "{1A9D4722-3B76-404C-9DD3-EC8D82FCC9B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.RoundingNumbers", "..\P03.RoundingNumbers\P03.RoundingNumbers.csproj", "{1A9D4722-3B76-404C-9DD3-EC8D82FCC9B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.SumEvenNumbers", "..\P05.SumEvenNumbers\P05.SumEvenNumbers.csproj", "{0CBA7D44-CBCE-4146-9B0D-D36EB916BFC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.SumEvenNumbers", "..\P05.SumEvenNumbers\P05.SumEvenNumbers.csproj", "{0CBA7D44-CBCE-4146-9B0D-D36EB916BFC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.EvenAndOddSubtraction", "..\P06.EvenAndOddSubtraction\P06.EvenAndOddSubtraction.csproj", "{AB08A333-980D-429F-979B-A34C482A42B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.EvenAndOddSubtraction", "..\P06.EvenAndOddSubtraction\P06.EvenAndOddSubtraction.csproj", "{AB08A333-980D-429F-979B-A34C482A42B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.EqualArrays", "..\P07.EqualArrays\P07.EqualArrays.csproj", "{65DBA6F1-9434-4B60-B67A-E48EEBC5CAA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.EqualArrays", "..\P07.EqualArrays\P07.EqualArrays.csproj", "{65DBA6F1-9434-4B60-B67A-E48EEBC5CAA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.CondenseArrayToNumber", "..\P08.CondenseArrayToNumber\P08.CondenseArrayToNumber.csproj", "{ACBFE261-DE43-4BDA-8AC4-D5E09A0190DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.CondenseArrayToNumber", "..\P08.CondenseArrayToNumber\P08.CondenseArrayToNumber.csproj", "{ACBFE261-DE43-4BDA-8AC4-D5E09A0190DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01.Train", "..\E01.Train\E01.Train.csproj", "{6C95141E-C4EF-47CD-83EB-FA94AEA8BD37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01.Train", "..\E01.Train\E01.Train.csproj", "{6C95141E-C4EF-47CD-83EB-FA94AEA8BD37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.CommonElements", "..\E02.CommonElements\E02.CommonElements.csproj", "{8372B357-27EB-4009-B4BF-49AB0EBB9A36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.CommonElements", "..\E02.CommonElements\E02.CommonElements.csproj", "{8372B357-27EB-4009-B4BF-49AB0EBB9A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03.ZigZagArrays", "..\E03.ZigZagArrays\E03.ZigZagArrays.csproj", "{DDC73BC9-BE58-43F7-BC2E-2350AC478608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.ZigZagArrays", "..\E03.ZigZagArrays\E03.ZigZagArrays.csproj", "{DDC73BC9-BE58-43F7-BC2E-2350AC478608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E04.ArrayRotation", "..\E04.ArrayRotation\E04.ArrayRotation.csproj", "{2AE992E3-D14A-4F14-BD2F-DD7935E5ED75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E04.ArrayRotation", "..\E04.ArrayRotation\E04.ArrayRotation.csproj", "{2AE992E3-D14A-4F14-BD2F-DD7935E5ED75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E05.TopIntegers", "..\E05.TopIntegers\E05.TopIntegers.csproj", "{677C3AE5-E075-4054-97D1-844F60202D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E05.TopIntegers", "..\E05.TopIntegers\E05.TopIntegers.csproj", "{677C3AE5-E075-4054-97D1-844F60202D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E06.EqualSums", "..\E06.EqualSums\E06.EqualSums.csproj", "{4D2E3BC6-A025-426C-9376-548171E707EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E06.EqualSums", "..\E06.EqualSums\E06.EqualSums.csproj", "{4D2E3BC6-A025-426C-9376-548171E707EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E07.MaxSequenceOfEqualElements", "..\E07.MaxSequenceOfEqualElements\E07.MaxSequenceOfEqualElements.csproj", "{BE725616-6B31-4C57-BB01-5C13064CD84E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E07.MaxSequenceOfEqualElements", "..\E07.MaxSequenceOfEqualElements\E07.MaxSequenceOfEqualElements.csproj", "{BE725616-6B31-4C57-BB01-5C13064CD84E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E08.MagicSum", "..\E08.MagicSum\E08.MagicSum.csproj", "{134FC875-93DB-4E81-A544-8BD93FC47422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E08.MagicSum", "..\E08.MagicSum\E08.MagicSum.csproj", "{134FC875-93DB-4E81-A544-8BD93FC47422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E09.KaminoFactory", "..\E09.KaminoFactory\E09.KaminoFactory.csproj", "{19A56006-3C0B-4492-A182-A24EF737E100}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E09.KaminoFactory", "..\E09.KaminoFactory\E09.KaminoFactory.csproj", "{19A56006-3C0B-4492-A182-A24EF737E100}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.ReverseArrayOfStrings", "..\P04.ReverseArrayOfStrings\P04.ReverseArrayOfStrings.csproj", "{8CB0CB61-9ECE-4CF7-8E8E-0407FE15917D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.ReverseArrayOfStrings", "..\P04.ReverseArrayOfStrings\P04.ReverseArrayOfStrings.csproj", "{8CB0CB61-9ECE-4CF7-8E8E-0407FE15917D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E10.Ladybugs", "..\E10.Ladybugs\E10.Ladybugs.csproj", "{68CB63F8-FAE1-494E-AB41-0893C2933F76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{8CB0CB61-9ECE-4CF7-8E8E-0407FE15917D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB0CB61-9ECE-4CF7-8E8E-0407FE15917D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB0CB61-9ECE-4CF7-8E8E-0407FE15917D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CB63F8-FAE1-494E-AB41-0893C2933F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CB63F8-FAE1-494E-AB41-0893C2933F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CB63F8-FAE1-494E-AB41-0893C2933F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CB63F8-FAE1-494E-AB41-0893C2933F76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
