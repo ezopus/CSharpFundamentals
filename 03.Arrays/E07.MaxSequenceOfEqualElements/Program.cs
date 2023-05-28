@@ -7,7 +7,7 @@ int sequenceCounter = 0;
 int longestSequence = 0;
 int longestSequenceStart = 0;
 int longestSequenceValue = 0;
-for (int i = 0; i < array.Length - 1; i++)
+for (int i = 0; i < array.Length; i++)
 {
     for (int j = i + 1; j < array.Length; j++)
     {

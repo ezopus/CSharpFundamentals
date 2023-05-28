@@ -1,58 +1,53 @@
 ﻿using System;
-
 int sampleLength = int.Parse(Console.ReadLine());
 string input = "";
-int bestSequenceSum = 0;
 int sampleCounter = 0;
 int[] bestSampleArray = new int[sampleLength];
+int bestSequenceSum = 0;
 int bestSampleNumber = 0;
+int bestStartingIndex = 0;
+int bestSequence = int.MinValue;
 while ((input = Console.ReadLine()) != "Clone them!")
 {
     sampleCounter++;
-    int[] sequenceArray = input
-            .Split('!')
-            .Select(int.Parse)
-            .ToArray();
-
-    int sequenceCounter = 1;
-    int longestSequence = 1;
-    int longestSequenceStart = 0;
-    //int longestSequenceValue = 0;
-    for (int i = 0; i < sequenceArray.Length - 1; i++)
+    int[] sequenceArray = input.Split('!',StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+    int sequenceCounter = 0;
+    int currentBestSequenceCounter = 0;
+    int sequenceStart = 0;
+    int currentBestStartingIndex = 0;
+    int currentSum = 0;
+    for (int i = 0; i < sequenceArray.Length; i++)
     {
-        for (int j = i + 1; j < sequenceArray.Length; j++)
+        if (sequenceArray[i] == 1)
         {
-            if (sequenceArray[i] == sequenceArray[j])
+            if (sequenceCounter == 0)
             {
-                sequenceCounter++;
+                sequenceStart = i;
             }
-            else
-            {
-                break;
-            }
+            currentSum++;
+            sequenceCounter++;
         }
-        if (sequenceCounter > longestSequence)
+        if (sequenceArray[i] == 0 || i == sequenceArray.Length - 1)
         {
-            longestSequence = sequenceCounter;
-            longestSequenceStart = i;
-            //longestSequenceValue = sequenceArray[i];
-            int currentSum = 0;
-            for (int k = 0; k < sequenceArray.Length; k++)
+            if (currentBestSequenceCounter < sequenceCounter)
             {
-                currentSum += sequenceArray[k];
+                currentBestStartingIndex = sequenceStart;
+                currentBestSequenceCounter = sequenceCounter;
             }
-            if (currentSum < bestSequenceSum)
-            {
-                bestSequenceSum = currentSum;
-                bestSampleNumber = i;
-                foreach (int number in sequenceArray)
-                {
-                    bestSampleArray = sequenceArray;
-                }
-            }
+            sequenceCounter = 0;
         }
-        sequenceCounter = 0;
+    }
+    if (currentBestSequenceCounter > bestSequence
+        || (currentBestSequenceCounter == bestSequence && currentBestStartingIndex < bestStartingIndex)
+        || (currentBestSequenceCounter == bestSequence && currentBestStartingIndex == bestStartingIndex && currentSum > bestSequenceSum)
+       )
+    {
+        bestSequence = currentBestSequenceCounter;
+        bestSampleNumber = sampleCounter;
+        bestSequenceSum = currentSum;
+        bestStartingIndex = currentBestStartingIndex; ;
+        bestSampleArray = sequenceArray;
     }
 }
-Console.WriteLine($"Best DNA sample {bestSampleNumber} with sum: {bestSequenceSum}");
-Console.WriteLine(string.Join("!", bestSampleArray));
+Console.WriteLine($"Best DNA sample {bestSampleNumber} with sum: {bestSequenceSum}.");
+Console.WriteLine(string.Join(" ", bestSampleArray));
