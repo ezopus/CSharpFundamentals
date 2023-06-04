@@ -18,7 +18,7 @@ namespace E09.PalindromeIntegers
         {
             char[] reversedArray = input.ToCharArray();
             Array.Reverse(reversedArray);
-            string reversed = string.Join("", reversedArray);
+            string reversed = new string(reversedArray);
             return input == reversed;
         }
     }
