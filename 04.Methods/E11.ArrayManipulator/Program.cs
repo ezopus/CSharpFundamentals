@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Reflection;
 
 namespace E11.ArrayManipulator
 {
@@ -27,10 +28,14 @@ namespace E11.ArrayManipulator
                         MinEvenOdd(command[1], initialArray);
                         break;
                     case "first":
-                        FirstCount(int.Parse(command[1]), command[2], initialArray);
+                        int count = int.Parse(command[1]);
+                        string type = command[2];
+                        FirstCount(count, type, initialArray);
                         break;
                     case "last":
-                        LastCount(int.Parse(command[1]), command[2], initialArray);
+                        count = int.Parse(command[1]);
+                        type = command[2];
+                        LastCount(count, type, initialArray);
                         break;
                     default:
                         break;
@@ -40,24 +45,27 @@ namespace E11.ArrayManipulator
             Console.WriteLine($"[{string.Join(", ", initialArray)}]");
         }
 
-        static long[] FirstCount(int firstOrLastCount, string typeEvenOdd, long[] initialArray)
+        static long[] FirstCount(int count, string typeEvenOdd, long[] initialArray)
         {
-            if (firstOrLastCount > initialArray.Length)
+            if (count > initialArray.Length)
             {
                 Console.WriteLine("Invalid count");
                 return initialArray;
             }
 
             string temp = "";
-            int counter = 0;
-            while (firstOrLastCount > 0 && counter < initialArray.Length)
+            for (int i = 0; i < initialArray.Length; i++)
             {
-                if (EvenOdd(typeEvenOdd, initialArray, counter))
+                long number = initialArray[i];
+                if (count == 0)
                 {
-                    temp += initialArray[counter] + ", ";
-                    firstOrLastCount--;
+                    break;
                 }
-                counter++;
+                if (EvenOdd(typeEvenOdd, number))
+                {
+                    temp += number + ", ";
+                    count--;
+                }
             }
             if (temp != "")
             {
@@ -70,9 +78,9 @@ namespace E11.ArrayManipulator
             return initialArray;
         }
 
-        static long[] LastCount(int firstOrLastCount, string typeEvenOdd, long[] initialArray)
+        static long[] LastCount(int count, string typeEvenOdd, long[] initialArray)
         {
-            if (firstOrLastCount > initialArray.Length)
+            if (count > initialArray.Length)
             {
                 Console.WriteLine("Invalid count");
                 return initialArray;
@@ -81,14 +89,15 @@ namespace E11.ArrayManipulator
             string temp = "";
             for (int i = initialArray.Length - 1; i >= 0; i--)
             {
-                if (firstOrLastCount == 0)
+                long number = initialArray[i];
+                if (count == 0)
                 {
                     break;
                 }
-                if (EvenOdd(typeEvenOdd, initialArray, i))
+                if (EvenOdd(typeEvenOdd, number))
                 {
-                    temp += initialArray[i] + ", ";
-                    firstOrLastCount--;
+                    temp = number + ", " + temp;
+                    count--;
                 }
             }
             if (temp != "")
@@ -104,20 +113,21 @@ namespace E11.ArrayManipulator
 
         static void MaxEvenOdd(string typeMinOrMax, long[] initialArray)
         {
-            long maxValue = int.MinValue;
+            long maxValue = long.MinValue;
             int maxIndex = -1;
             for (int index = 0; index < initialArray.Length; index++)
             {
-                if (EvenOdd(typeMinOrMax, initialArray, index))
+                long number = initialArray[index];
+                if (EvenOdd(typeMinOrMax, number))
                 {
-                    if (initialArray[index] >= maxValue)
+                    if (number >= maxValue)
                     {
-                        maxValue = initialArray[index];
+                        maxValue = number;
                         maxIndex = index;
                     }
                 }
             }
-            if (maxIndex >= 0)
+            if (maxIndex != -1)
             {
                 Console.WriteLine(maxIndex);
             }
@@ -128,21 +138,22 @@ namespace E11.ArrayManipulator
         }
         static void MinEvenOdd(string typeMinOrMax, long[] initialArray)
         {
-            long minValue = int.MaxValue;
+            long minValue = long.MaxValue;
             int minIndex = -1;
             for (int index = 0; index < initialArray.Length; index++)
             {
-                if (EvenOdd(typeMinOrMax, initialArray, index))
+                long number = initialArray[index];
+                if (EvenOdd(typeMinOrMax, number))
                 {
-                    if (initialArray[index] <= minValue)
+                    if (number <= minValue)
                     {
-                        minValue = initialArray[index];
+                        minValue = number;
                         minIndex = index;
                     }
                 }
             }
 
-            if (minIndex >= 0)
+            if (minIndex != -1)
             {
                 Console.WriteLine(minIndex);
             }
@@ -152,9 +163,9 @@ namespace E11.ArrayManipulator
             }
 
         }
-        private static bool EvenOdd(string typeMinOrMax, long[] initialArray, int index)
+        private static bool EvenOdd(string typeMinOrMax, long number)
         {
-            if ((typeMinOrMax == "even" && initialArray[index] % 2 == 0) || (typeMinOrMax == "odd" && initialArray[index] % 2 != 0))
+            if ((typeMinOrMax == "even" && number % 2 == 0) || (typeMinOrMax == "odd" && number % 2 != 0))
             {
                 return true;
             }
