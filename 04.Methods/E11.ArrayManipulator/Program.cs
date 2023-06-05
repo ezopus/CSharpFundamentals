@@ -8,9 +8,9 @@ namespace E11.ArrayManipulator
     {
         static void Main(string[] args)
         {
-            long[] initialArray = Console.ReadLine()
+            int[] initialArray = Console.ReadLine()
                 .Split()
-                .Select(long.Parse)
+                .Select(int.Parse)
                 .ToArray();
             string input = "";
             while ((input = Console.ReadLine()) != "end")
@@ -45,7 +45,7 @@ namespace E11.ArrayManipulator
             Console.WriteLine($"[{string.Join(", ", initialArray)}]");
         }
 
-        static long[] FirstCount(int count, string typeEvenOdd, long[] initialArray)
+        static int[] FirstCount(int count, string typeEvenOdd, int[] initialArray)
         {
             if (count > initialArray.Length)
             {
@@ -56,7 +56,7 @@ namespace E11.ArrayManipulator
             string temp = "";
             for (int i = 0; i < initialArray.Length; i++)
             {
-                long number = initialArray[i];
+                int number = initialArray[i];
                 if (count == 0)
                 {
                     break;
@@ -78,7 +78,7 @@ namespace E11.ArrayManipulator
             return initialArray;
         }
 
-        static long[] LastCount(int count, string typeEvenOdd, long[] initialArray)
+        static int[] LastCount(int count, string typeEvenOdd, int[] initialArray)
         {
             if (count > initialArray.Length)
             {
@@ -89,7 +89,7 @@ namespace E11.ArrayManipulator
             string temp = "";
             for (int i = initialArray.Length - 1; i >= 0; i--)
             {
-                long number = initialArray[i];
+                int number = initialArray[i];
                 if (count == 0)
                 {
                     break;
@@ -111,13 +111,13 @@ namespace E11.ArrayManipulator
             return initialArray;
         }
 
-        static void MaxEvenOdd(string typeMinOrMax, long[] initialArray)
+        static void MaxEvenOdd(string typeMinOrMax, int[] initialArray)
         {
-            long maxValue = long.MinValue;
+            int maxValue = int.MinValue;
             int maxIndex = -1;
             for (int index = 0; index < initialArray.Length; index++)
             {
-                long number = initialArray[index];
+                int number = initialArray[index];
                 if (EvenOdd(typeMinOrMax, number))
                 {
                     if (number >= maxValue)
@@ -136,13 +136,13 @@ namespace E11.ArrayManipulator
                 Console.WriteLine("No matches");
             }
         }
-        static void MinEvenOdd(string typeMinOrMax, long[] initialArray)
+        static void MinEvenOdd(string typeMinOrMax, int[] initialArray)
         {
-            long minValue = long.MaxValue;
+            int minValue = int.MaxValue;
             int minIndex = -1;
             for (int index = 0; index < initialArray.Length; index++)
             {
-                long number = initialArray[index];
+                int number = initialArray[index];
                 if (EvenOdd(typeMinOrMax, number))
                 {
                     if (number <= minValue)
@@ -163,7 +163,7 @@ namespace E11.ArrayManipulator
             }
 
         }
-        private static bool EvenOdd(string typeMinOrMax, long number)
+        private static bool EvenOdd(string typeMinOrMax, int number)
         {
             if ((typeMinOrMax == "even" && number % 2 == 0) || (typeMinOrMax == "odd" && number % 2 != 0))
             {
@@ -172,14 +172,14 @@ namespace E11.ArrayManipulator
             return false;
         }
 
-        static long[] ExchangeArray(int exchangeIndex, long[] initialArray)
+        static int[] ExchangeArray(int exchangeIndex, int[] initialArray)
         {
-            if (exchangeIndex >= initialArray.Length)
+            if (exchangeIndex >= initialArray.Length || exchangeIndex < 0)
             {
                 Console.WriteLine("Invalid index");
                 return initialArray;
             }
-            long[] newArray = new long[initialArray.Length];
+            int[] newArray = new int[initialArray.Length];
             int newArrayIndex = 0;
             for (int i = exchangeIndex + 1; i < initialArray.Length; i++)
             {
