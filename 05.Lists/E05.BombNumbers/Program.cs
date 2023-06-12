@@ -34,7 +34,6 @@ namespace E05.BombNumbers
                 int index = numberString.IndexOf(bombNumber);
                 int leftIndex = Math.Max(0, index - power);
                 int rightIndex = Math.Min(numberString.Count - 1, index + power);
-
                 int rangeLength = rightIndex - leftIndex + 1;
 
                 numberString.RemoveRange(leftIndex, rangeLength);
