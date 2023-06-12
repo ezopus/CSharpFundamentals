@@ -33,17 +33,11 @@ namespace E08.AnonymousThreat
             Console.WriteLine(string.Join(' ', initialList));
 
         }
+
         static List<string> MergeElements(List<string> initialList, int startIndex, int endIndex)
         {
-            if (startIndex < 0)
-            {
-                startIndex = 0;
-            }
-            if (endIndex >= initialList.Count)
-            {
-                endIndex = initialList.Count - 1;
-            }
-
+            startIndex = Math.Max(0, startIndex);
+            endIndex = Math.Min(initialList.Count - 1, endIndex);
             if (startIndex < initialList.Count)
             {
                 string temp = "";
@@ -56,7 +50,6 @@ namespace E08.AnonymousThreat
                 initialList.RemoveRange(startIndex, rangeLength);
                 initialList.Insert(startIndex, temp);
             }
-
             return initialList;
         }
         static List<string> DivideIntoPartitions(List<string> initialList, int index, int partitionCount)
@@ -78,7 +71,7 @@ namespace E08.AnonymousThreat
 
             if (remainder != 0)
             {
-                splitList[splitList.Count - 1] += tempString[tempString.Length - 1];
+                splitList[splitList.Count - 1] += tempString.Substring(newPartitionIndex, remainder);
             }
             initialList.InsertRange(index, splitList);
             return initialList;
