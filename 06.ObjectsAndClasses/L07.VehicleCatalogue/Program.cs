@@ -78,10 +78,4 @@ namespace L07.VehicleCatalogue
         public string CarModel { get; set; }
         public int CarHorsePower { get; set; }
     }
-
-    public class Catalog
-    {
-        public List<Car> Cars { get; set; }
-        public List<Truck> Trucks { get; set; }
-    }
 }
