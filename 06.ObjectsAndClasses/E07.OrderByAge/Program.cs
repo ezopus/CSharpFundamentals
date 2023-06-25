@@ -44,8 +44,7 @@ namespace E07.OrderByAge
             Age = age;
         }
         public string Name { get; set; }
-        public int ID { get; set; }¶
+        public int ID { get; set; }
         public int Age { get; set; }
-
     }
 }
