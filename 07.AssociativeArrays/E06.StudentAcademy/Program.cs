@@ -10,15 +10,6 @@ for (int i = 0; i < numberOfStudents; i++)
     }
     students[studentName].Add(studentGrade);
 }
-
-// foreach (var s in students)
-// {
-//     if (s.Value.Average() < 4.5)
-//     {
-//         students.Remove(s.Key);
-//     }
-// }
-
 foreach (var s in students)
 {
     if (s.Value.Average() >= 4.5)
