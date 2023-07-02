@@ -33,9 +33,7 @@ public class Dwarf
         Name = name;
         HatColor = hatColor;
         Physics = physics;
-        //Physics = physics;
     }
-
     public string Name { get; set; }
     public string HatColor { get; set; }
     public int Physics { get; set; }
