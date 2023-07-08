@@ -1,0 +1,11 @@
+﻿string input = Console.ReadLine();
+string fileName = "";
+string extension = "";
+int fileStartIndex = 0;
+int extensionIndex = 0;
+fileStartIndex = input.LastIndexOf("\\");
+extensionIndex = input.LastIndexOf(".");
+fileName = input.Substring(fileStartIndex + 1, extensionIndex - fileStartIndex - 1);
+extension = input.Substring(extensionIndex + 1);
+Console.WriteLine($"File name: {fileName}");
+Console.WriteLine($"File extension: {extension}");
