@@ -47,25 +47,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.FriendListMaintenance",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.PhoneShop", "E03.PhoneShop\E03.PhoneShop.csproj", "{2796E84F-44C6-45B3-BFB3-5F0949C9F999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01.ActivationKeys", "E01.ActivationKeys\E01.ActivationKeys.csproj", "{49D260EB-5D88-4EDC-AE1C-EA60D7E61E87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01.ActivationKeys", "E01.ActivationKeys\E01.ActivationKeys.csproj", "{49D260EB-5D88-4EDC-AE1C-EA60D7E61E87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03.Pirates", "E03.Pirates\E03.Pirates.csproj", "{BA7783EE-5303-4029-B81A-FCAC8D528377}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.Pirates", "E03.Pirates\E03.Pirates.csproj", "{BA7783EE-5303-4029-B81A-FCAC8D528377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01.PasswordReset", "E01.PasswordReset\E01.PasswordReset.csproj", "{C70385A6-B8F5-4A75-A1C8-9FF5DC0F8882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01.PasswordReset", "E01.PasswordReset\E01.PasswordReset.csproj", "{C70385A6-B8F5-4A75-A1C8-9FF5DC0F8882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03.HeroesOfCodeAndLogicVII", "E03.HeroesOfCodeAndLogicVII\E03.HeroesOfCodeAndLogicVII.csproj", "{BC01417C-DE5B-4D00-B477-FD837FDDE3EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.HeroesOfCodeAndLogicVII", "E03.HeroesOfCodeAndLogicVII\E03.HeroesOfCodeAndLogicVII.csproj", "{BC01417C-DE5B-4D00-B477-FD837FDDE3EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01.SecretChat", "E01.SecretChat\E01.SecretChat.csproj", "{3DD60E28-E138-476F-AA2B-22A1C955E5FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01.SecretChat", "E01.SecretChat\E01.SecretChat.csproj", "{3DD60E28-E138-476F-AA2B-22A1C955E5FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03.NeedForSpeedIII", "E03.NeedForSpeedIII\E03.NeedForSpeedIII.csproj", "{89E6339E-980F-457E-ABDC-A525954205E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.NeedForSpeedIII", "E03.NeedForSpeedIII\E03.NeedForSpeedIII.csproj", "{89E6339E-980F-457E-ABDC-A525954205E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01.WorldTour", "E01.WorldTour\E01.WorldTour.csproj", "{BD6A2932-7516-4D14-8F89-0FF69C910733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01.WorldTour", "E01.WorldTour\E01.WorldTour.csproj", "{BD6A2932-7516-4D14-8F89-0FF69C910733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03.PlantDiscovery", "E03.PlantDiscovery\E03.PlantDiscovery.csproj", "{B704B20B-6C1D-43A8-99E0-37E499A29E1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.PlantDiscovery", "E03.PlantDiscovery\E03.PlantDiscovery.csproj", "{B704B20B-6C1D-43A8-99E0-37E499A29E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01.TheImitationGame", "E01.TheImitationGame\E01.TheImitationGame.csproj", "{BE9615AD-41A7-467F-9BCD-191A8CFF4CE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01.TheImitationGame", "E01.TheImitationGame\E01.TheImitationGame.csproj", "{BE9615AD-41A7-467F-9BCD-191A8CFF4CE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03.ThePianist", "E03.ThePianist\E03.ThePianist.csproj", "{EA9CFA7F-CB01-4346-96B4-8579B0A7AE07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.ThePianist", "E03.ThePianist\E03.ThePianist.csproj", "{EA9CFA7F-CB01-4346-96B4-8579B0A7AE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.AdAstra", "E02.AdAstra\E02.AdAstra.csproj", "{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{EA9CFA7F-CB01-4346-96B4-8579B0A7AE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9CFA7F-CB01-4346-96B4-8579B0A7AE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9CFA7F-CB01-4346-96B4-8579B0A7AE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
