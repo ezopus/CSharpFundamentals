@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L01.MatchFullName", "L01.MatchFullName\L01.MatchFullName.csproj", "{A83F436E-ED91-42D2-944B-5610AD70D8FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L01.MatchFullName", "L01.MatchFullName\L01.MatchFullName.csproj", "{A83F436E-ED91-42D2-944B-5610AD70D8FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02.MatchPhoneNumber", "L02.MatchPhoneNumber\L02.MatchPhoneNumber.csproj", "{00DFCF86-D762-4DF5-AEEE-EB77397BF23A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L02.MatchPhoneNumber", "L02.MatchPhoneNumber\L02.MatchPhoneNumber.csproj", "{00DFCF86-D762-4DF5-AEEE-EB77397BF23A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L03.MatchDates", "L03.MatchDates\L03.MatchDates.csproj", "{78CBD601-B6A1-4267-8750-7AA5697FD522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L03.MatchDates", "L03.MatchDates\L03.MatchDates.csproj", "{78CBD601-B6A1-4267-8750-7AA5697FD522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01.Furniture", "E01.Furniture\E01.Furniture.csproj", "{F8FE99CA-FDEA-48E8-85CE-DBD634DB2E94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01.Furniture", "E01.Furniture\E01.Furniture.csproj", "{F8FE99CA-FDEA-48E8-85CE-DBD634DB2E94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03.SoftUniBarIncome", "E03.SoftUniBarIncome\E03.SoftUniBarIncome.csproj", "{7B260CFE-8CD2-4991-847B-2ECDE1204046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.SoftUniBarIncome", "E03.SoftUniBarIncome\E03.SoftUniBarIncome.csproj", "{7B260CFE-8CD2-4991-847B-2ECDE1204046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.Race", "E02.Race\E02.Race.csproj", "{E13E3F16-BD38-40A4-B675-2E42567A25F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.Race", "E02.Race\E02.Race.csproj", "{E13E3F16-BD38-40A4-B675-2E42567A25F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E04.StarEnigma", "E04.StarEnigma\E04.StarEnigma.csproj", "{FE420395-F87E-4FD2-AABA-3D63411B5616}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E13E3F16-BD38-40A4-B675-2E42567A25F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E13E3F16-BD38-40A4-B675-2E42567A25F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E13E3F16-BD38-40A4-B675-2E42567A25F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE420395-F87E-4FD2-AABA-3D63411B5616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE420395-F87E-4FD2-AABA-3D63411B5616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE420395-F87E-4FD2-AABA-3D63411B5616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE420395-F87E-4FD2-AABA-3D63411B5616}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
