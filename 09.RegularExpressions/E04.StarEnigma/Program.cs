@@ -4,7 +4,6 @@ using System.Text.RegularExpressions;
 int numberOfMessages = int.Parse(Console.ReadLine());
 string regex = @"[@](?<planet>[A-Za-z]+)[^@!:->]*[:](?<population>\d+)[^@!:->]*[!](?<type>[A|D])[!][^@!:->]*[->](?<soldiers>\d+)";
 StringBuilder decrypted = new StringBuilder();
-List<string> planetsList = new List<string>();
 List<string> attackedPlanets = new List<string>();
 List<string> destroyedPlanets = new List<string>();
 for (int i = 0; i < numberOfMessages; i++)
