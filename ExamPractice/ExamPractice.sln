@@ -67,7 +67,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01.TheImitationGame", "E01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.ThePianist", "E03.ThePianist\E03.ThePianist.csproj", "{EA9CFA7F-CB01-4346-96B4-8579B0A7AE07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.AdAstra", "E02.AdAstra\E02.AdAstra.csproj", "{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.AdAstra", "E02.AdAstra\E02.AdAstra.csproj", "{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.DestinationMapper", "E02.DestinationMapper\E02.DestinationMapper.csproj", "{71EE77F0-8DB1-4399-9FF1-28D078B4B4C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.MirrorWords", "E02.MirrorWords\E02.MirrorWords.csproj", "{453588BE-EFCC-462E-ACCD-8DCCCAC7E1AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.FancyBarcodes", "E02.FancyBarcodes\E02.FancyBarcodes.csproj", "{4E908439-624B-4FE6-B270-09A27AEF0068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.EmojiDetector", "E02.EmojiDetector\E02.EmojiDetector.csproj", "{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +215,22 @@ Global
 		{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71EE77F0-8DB1-4399-9FF1-28D078B4B4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EE77F0-8DB1-4399-9FF1-28D078B4B4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EE77F0-8DB1-4399-9FF1-28D078B4B4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EE77F0-8DB1-4399-9FF1-28D078B4B4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453588BE-EFCC-462E-ACCD-8DCCCAC7E1AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453588BE-EFCC-462E-ACCD-8DCCCAC7E1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453588BE-EFCC-462E-ACCD-8DCCCAC7E1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453588BE-EFCC-462E-ACCD-8DCCCAC7E1AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E908439-624B-4FE6-B270-09A27AEF0068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E908439-624B-4FE6-B270-09A27AEF0068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E908439-624B-4FE6-B270-09A27AEF0068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E908439-624B-4FE6-B270-09A27AEF0068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
