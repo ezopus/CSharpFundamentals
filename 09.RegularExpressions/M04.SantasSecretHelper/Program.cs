@@ -19,7 +19,4 @@ while((input = Console.ReadLine()) != "end")
     }
 }
 
-foreach (var kid in goodKids)
-{
-    Console.WriteLine(kid);
-}
+Console.WriteLine(string.Join(Environment.NewLine, goodKids));
