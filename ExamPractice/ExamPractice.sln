@@ -69,13 +69,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.ThePianist", "E03.ThePi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.AdAstra", "E02.AdAstra\E02.AdAstra.csproj", "{DDC913BF-83AA-4DCD-98E4-EDCD6CFB7FA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.DestinationMapper", "E02.DestinationMapper\E02.DestinationMapper.csproj", "{71EE77F0-8DB1-4399-9FF1-28D078B4B4C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.DestinationMapper", "E02.DestinationMapper\E02.DestinationMapper.csproj", "{71EE77F0-8DB1-4399-9FF1-28D078B4B4C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.MirrorWords", "E02.MirrorWords\E02.MirrorWords.csproj", "{453588BE-EFCC-462E-ACCD-8DCCCAC7E1AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.MirrorWords", "E02.MirrorWords\E02.MirrorWords.csproj", "{453588BE-EFCC-462E-ACCD-8DCCCAC7E1AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.FancyBarcodes", "E02.FancyBarcodes\E02.FancyBarcodes.csproj", "{4E908439-624B-4FE6-B270-09A27AEF0068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.FancyBarcodes", "E02.FancyBarcodes\E02.FancyBarcodes.csproj", "{4E908439-624B-4FE6-B270-09A27AEF0068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.EmojiDetector", "E02.EmojiDetector\E02.EmojiDetector.csproj", "{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.EmojiDetector", "E02.EmojiDetector\E02.EmojiDetector.csproj", "{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01.PasswordValidator", "E01.PasswordValidator\E01.PasswordValidator.csproj", "{E57CD26D-AABC-4A8A-BC77-6F4FC3A90F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02.EncryptingPassword", "E02.EncryptingPassword\E02.EncryptingPassword.csproj", "{7F0260D3-3759-492F-88F6-B4339B737F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03.WildZoo", "E03.WildZoo\E03.WildZoo.csproj", "{DF7B36CC-6416-4949-BCF7-D12D5B23E9ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +237,18 @@ Global
 		{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87F3F063-3CA5-4F94-B0AC-0333FA737BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57CD26D-AABC-4A8A-BC77-6F4FC3A90F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57CD26D-AABC-4A8A-BC77-6F4FC3A90F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57CD26D-AABC-4A8A-BC77-6F4FC3A90F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57CD26D-AABC-4A8A-BC77-6F4FC3A90F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0260D3-3759-492F-88F6-B4339B737F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0260D3-3759-492F-88F6-B4339B737F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0260D3-3759-492F-88F6-B4339B737F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0260D3-3759-492F-88F6-B4339B737F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7B36CC-6416-4949-BCF7-D12D5B23E9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7B36CC-6416-4949-BCF7-D12D5B23E9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7B36CC-6416-4949-BCF7-D12D5B23E9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7B36CC-6416-4949-BCF7-D12D5B23E9ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
